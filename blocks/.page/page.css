@@ -1,0 +1,48 @@
+/* скачать шрифт */
+@font-face {
+	src: url('../../vendor/fonts/Inter-Regular.ttf');
+	font-family: 'Inter Normal';
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	src: url('../../vendor/fonts/Inter-Black.ttf');
+	font-family: 'Inter Bold';
+	font-style: normal;
+	font-weight: 900;
+}
+
+
+.page{
+	min-width: 1280px;
+	margin: 0;
+	display: grid;
+	grid-template-rows: minmax( 52px, auto) 1fr minmax( 18px, auto);
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+		"header"
+		"main"
+		"footer" ;
+	
+	/* font-family: 'Inter'; */
+	background-color: #2A2C2F;
+	color: #fff;
+	/* justify-items: center; */
+
+	/* сглаживание */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* подгонка размера */
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%; 
+}
+
+
+
+/* проверить каое значение нужно применить мин или макс */
+/* @media screen and (max-width: 1024px) */
+
+

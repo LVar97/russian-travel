@@ -1,0 +1,21 @@
+@import url('__title/place__title.css');
+@import url('__image/place__image.css');
+@import url('__website/place__website.css');
+@import url('__paragraph/place__paragraph.css');
+
+.place{
+	display: grid;
+
+	grid-template-columns: minmax(460px, max-content) minmax(484px, max-content);
+	grid-template-rows: minmax(46px, max-content) minmax(412px, max-content);
+	
+	grid-template-areas:
+	"title website"
+	"image paragraph";
+
+	row-gap: 48px;
+	column-gap: 40px;
+
+	padding-top: 80px;
+}
+

@@ -1,0 +1,14 @@
+@import url('__logo/header__logo.css');
+@import url('__lang-link/header__lang-link.css');
+
+.header{
+	min-width: calc(100% - 96px);
+	padding-top: 28px;
+	margin: auto;
+	
+	grid-area: header;
+	display: grid;
+	grid-template: 1fr / minmax(176px, auto) minmax(auto, 48px) minmax(auto, 30px);
+	align-items: end;
+	
+}

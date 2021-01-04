@@ -1,0 +1,8 @@
+.places{
+	grid-area: places;
+	padding: 92px 148px;
+}
+
+.place:first-child{
+	padding-top: 0;
+}

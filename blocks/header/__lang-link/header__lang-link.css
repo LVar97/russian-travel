@@ -1,0 +1,18 @@
+.header__lang-link{
+	color: #fff;
+	padding-right: 18px;
+
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	
+	display: grid;
+	justify-items: end;
+}
+
+.header__lang-link:last-child{
+	padding-right: 0;
+	text-decoration: none;  
+}
+
+/* посмотреть как сделать псевоклассом активную ссылку (если что смотри слак) */
