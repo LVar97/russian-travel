@@ -1,18 +1,29 @@
+@import url('_active/header__lang-link_active.css');
+
 .header__lang-link{
 	color: #fff;
 	padding-right: 18px;
 
+	font-family: 'Inter';
+	font-weight: 400;
 	font-weight: normal;
 	font-size: 24px;
 	line-height: 28px;
+	text-align: right;
 	
-	display: grid;
-	justify-items: end;
 }
 
 .header__lang-link:last-child{
-	padding-right: 0;
-	text-decoration: none;  
+	padding-right: 0;  
+	text-decoration: none;
 }
 
-/* посмотреть как сделать псевоклассом активную ссылку (если что смотри слак) */
+@media all and (max-width: 767px){
+	.header__lang-link{
+		font-size: 18px;
+		line-height: 111%;
+	}
+	.header__lang-link:first-child{
+		font-weight: 900;
+	}
+}

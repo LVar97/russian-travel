@@ -1,12 +1,18 @@
 .lead__title{
-	font-family: 'Inter Bold';
-	font-style: normal;
 	font-weight: 900;
 	font-size: 96px;
 	line-height: 104%;
-	/* or 104% */
 
 	text-align: center;
 	margin: 0 auto;
-	max-width: 720px;
+	width: 720px;
+}
+
+@media all and (max-width: 767px){
+	.lead__title{
+		width: 288px;
+		font-size: 40px;
+		line-height: 44px;
+		/* or 110% */
+	}
 }

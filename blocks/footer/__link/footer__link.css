@@ -5,12 +5,23 @@
 	/* identical to box height, or 112% */
 	text-decoration: none;
 	color: #fff;
-	grid-column: span 2;
 
-	
 	padding-right: 18px;
 }
 
 .footer__link:last-of-type{
 	padding-right: 0;
+}
+
+@media all and (max-width: 767px){
+	.footer__link{
+		display: block;
+		padding-bottom: 32px;
+		font-size: 24px;
+		line-height: 24px;
+		/* identical to box height, or 100% */
+	}
+	.footer__link:last-of-type{
+		padding-bottom: 48px;
+	}
 }
