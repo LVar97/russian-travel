@@ -1,5 +1,5 @@
 .header{
-	max-width: 1184px;
+	width: 1184px;
 	padding-top: 28px;
 	margin: 0 auto;
 	
@@ -12,19 +12,19 @@
 
 @media screen and (max-width: 1279px){
 	.header{
-		max-width: 928px;
+		width: 928px;
 	}
 }
 
 @media screen and (max-width: 1023px){
 	.header{
-		max-width: 720px;
+		width: 720px;
 	}
 }
 
 @media all and (max-width: 767px){
 	.header{
-		max-width: 288px;
+		width: 288px;
 		padding-top: 16px;
 	}
 }
