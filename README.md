@@ -18,4 +18,4 @@
 * Grig Layout
 
 Ссылка на проект:
-https://github.com/LVar97/russian-travel
+https://lvar97.github.io/russian-travel/
