@@ -2,16 +2,6 @@
 	max-width: 1280px;
 	margin: 0 auto;
 
-	display: flex;
-	flex-direction: column;
-	/* grid-template-rows: repeat(5, auto);
-	grid-template-columns: 1fr;
-	grid-template-areas: 
-		"lead"
-		"intro"
-		"photo-grid"
-		"places"
-		"cover"; */
 	padding-bottom: 92px;
 }
 

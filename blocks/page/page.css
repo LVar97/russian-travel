@@ -1,14 +1,6 @@
 .page{
 	max-width: 1280px;
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	/* grid-template-rows: minmax( 52px, auto) 1fr minmax( 18px, auto);
-	grid-template-columns: 1fr;
-	grid-template-areas: 
-		"header"
-		"main"
-		"footer"; */
 	
 	background-color: #2A2C2F;
 	color: #fff;
