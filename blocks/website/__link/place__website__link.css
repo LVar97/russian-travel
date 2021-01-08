@@ -10,3 +10,7 @@
 	margin: 0;
 	
 }
+
+.place__website__link:hover{
+	cursor: pointer;
+}

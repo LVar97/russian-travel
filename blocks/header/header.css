@@ -2,13 +2,32 @@
 @import url('__lang-link/header__lang-link.css');
 
 .header{
-	min-width: calc(100% - 96px);
+	width: 1184px;
 	padding-top: 28px;
-	margin: auto;
+	margin: 0 auto;
 	
 	grid-area: header;
-	display: grid;
-	grid-template: 1fr / minmax(176px, auto) minmax(auto, 48px) minmax(auto, 30px);
-	align-items: end;
-	
+
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+@media screen and (max-width: 1279px){
+	.header{
+		width: 928px;
+	}
+}
+
+@media screen and (max-width: 1023px){
+	.header{
+		width: 720px;
+	}
+}
+
+@media all and (max-width: 767px){
+	.header{
+		width: 288px;
+		padding-top: 16px;
+	}
 }

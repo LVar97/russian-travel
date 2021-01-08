@@ -15,3 +15,17 @@
 .place__paragraph:last-of-type{
 	margin: 0;
 }
+
+@media all and (max-width: 767px){
+	.place__paragraph{
+		grid-row: 4;
+		grid-column: 1;
+		font-size: 16px;
+		line-height: 163%;
+		/* or 26px */
+
+		margin-top: 0;
+		margin-bottom: 25px;
+		padding: 0 16px;
+	}
+}

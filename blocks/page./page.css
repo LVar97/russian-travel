@@ -1,22 +1,22 @@
-/* скачать шрифт */
+/* шрифт */
 @font-face {
 	src: url('../../vendor/fonts/Inter-Regular.ttf');
-	font-family: 'Inter Normal';
+	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 }
 
 @font-face {
 	src: url('../../vendor/fonts/Inter-Black.ttf');
-	font-family: 'Inter Bold';
+	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 900;
 }
 
 
 .page{
-	min-width: 1280px;
-	margin: 0;
+	max-width: 1280px;
+	margin: 0 auto;
 	display: grid;
 	grid-template-rows: minmax( 52px, auto) 1fr minmax( 18px, auto);
 	grid-template-columns: 1fr;
@@ -25,10 +25,13 @@
 		"main"
 		"footer" ;
 	
-	/* font-family: 'Inter'; */
 	background-color: #2A2C2F;
 	color: #fff;
-	/* justify-items: center; */
+	justify-items: center;
+
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
 
 	/* сглаживание */
 	-webkit-font-smoothing: antialiased;
@@ -40,9 +43,24 @@
 	-moz-text-size-adjust: 100%; 
 }
 
+@media screen and (max-width: 1279px){
+	.page{
+		max-width: 1024px;
+	}
+}
+
+@media all and (max-width: 1023px){
+	.page{
+		max-width: 768px;
+	}
+}
+
+@media all and (max-width: 767px){
+	.page{
+		max-width: 320px;
+	}
+}
 
 
-/* проверить каое значение нужно применить мин или макс */
-/* @media screen and (max-width: 1024px) */
 
 

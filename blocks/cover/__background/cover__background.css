@@ -5,6 +5,7 @@
 	width: 100%;
 	height: 100%;
 	background-image: url('../../../image/cover-trains.jpg');
-	object-fit: cover;
-	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }

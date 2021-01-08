@@ -6,7 +6,7 @@
 
 .intro{
 	grid-area: intro;
-	max-width: 54%;
+	max-width: 690px;
 
 	display: flex;
 	flex-direction: column;
@@ -17,7 +17,22 @@
 	padding: 92px 442px 92px 148px;
 }
 
-/* .intro:nth-of-type(1){
-	padding: 92px 0 92px 148px;
-} */
+@media screen and (max-width: 1279px){
+	.intro{
+		padding: 92px 286px 92px 48px;
+	}
+}
 
+@media screen and (max-width: 1023px){
+	.intro{
+		width: 720px;
+		padding: 88px 24px;
+	}
+}
+
+@media all and (max-width: 767px){
+	.intro{
+		width: 288px;
+		padding: 64px 16px;
+	}
+}

@@ -1,6 +1,5 @@
 @import url('__title/place__title.css');
 @import url('__image/place__image.css');
-@import url('__website/place__website.css');
 @import url('__paragraph/place__paragraph.css');
 
 .place{
@@ -17,5 +16,34 @@
 	column-gap: 40px;
 
 	padding-top: 80px;
+}
+
+@media screen and (max-width: 1279px){
+	.place{
+		column-gap: 32px;
+		grid-template-columns: minmax(440px, max-content) minmax(456px, max-content);
+	}
+}
+
+@media screen and (max-width: 1023px){
+	.place{
+		column-gap: 28px;
+		grid-template-columns: minmax(340px, max-content) minmax(352px, max-content);
+		grid-template-rows: minmax(92px,auto) minmax(412px, max-content);
+	}
+}
+
+@media all and (max-width: 767px){
+	.place{
+		grid-template-areas:
+		"title"
+		"website"
+		"image"
+		"paragraph";
+		row-gap: 32px;
+		grid-template-columns: minmax(320px, max-content);
+		grid-template-rows: minmax(35px, max-content) minmax(46px, max-content) minmax(320px, max-content) minmax(320px, max-content);
+		padding-top: 64px;
+	}
 }
 
