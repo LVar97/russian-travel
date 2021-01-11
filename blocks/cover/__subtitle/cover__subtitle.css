@@ -7,7 +7,7 @@
 	text-align: center;
 	margin: 0 auto;
 	width: 360px;
-	z-index: 2;
+	z-index: 3;
 }
 
 @media all and (max-width: 767px){
