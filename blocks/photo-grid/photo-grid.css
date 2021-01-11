@@ -1,6 +1,4 @@
 .photo-grid{
-	grid-area: photo-grid;
-
 	max-width: 1184px;
 	display: grid;
 	gap: 16px;
