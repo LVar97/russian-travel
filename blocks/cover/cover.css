@@ -3,6 +3,7 @@
 	min-height: 740px;
 	position: relative;
 	margin: 0 auto;
+	display: flex;
 }
 
 .cover:hover .cover__overlay{
