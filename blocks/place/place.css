@@ -2,7 +2,7 @@
 	display: grid;
 
 	grid-template-columns: minmax(460px, max-content) minmax(484px, max-content);
-	grid-template-rows: minmax(46px, max-content) minmax(412px, max-content);
+	grid-template-rows: minmax(46px, max-content) minmax(460px, max-content);
 	
 	grid-template-areas:
 	"title website"
@@ -26,6 +26,7 @@
 		column-gap: 28px;
 		grid-template-columns: minmax(340px, max-content) minmax(352px, max-content);
 		grid-template-rows: minmax(92px,auto) minmax(412px, max-content);
+		padding-top: 73px;
 	}
 }
 
